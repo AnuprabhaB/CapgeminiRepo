@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-29T16:12:57 IST" name="Suite" finished-at="2025-10-29T16:13:20 IST" duration-ms="22978">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.gmail.Runner.TestRunner2@d35dea7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-10-29T16:12:57 IST" name="Test" finished-at="2025-10-29T16:13:20 IST" duration-ms="22978">
+      <class name="com.gmail.Runner.TestRunner2">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.gmail.Runner.TestRunner2@d35dea7]" started-at="2025-10-29T16:12:57 IST" name="setUpClass" finished-at="2025-10-29T16:12:58 IST" duration-ms="1019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@93824eb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.gmail.Runner.TestRunner2@d35dea7]" started-at="2025-10-29T16:12:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-29T16:13:06 IST" duration-ms="8507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct username and correct password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Store login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.gmail.Runner.TestRunner2@d35dea7]" started-at="2025-10-29T16:13:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-29T16:13:12 IST" duration-ms="5940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct username and correct password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Store login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.gmail.Runner.TestRunner2@d35dea7]" started-at="2025-10-29T16:13:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-29T16:13:19 IST" duration-ms="6863" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct username and correct password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Store login"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.gmail.Users.StepDef.LoginDemo2.its_navigated_to_the_home_page(LoginDemo2.java:59)
+at ✽.Its navigated to the home page "Enter your userName and password correct"(file:///C:/Users/abaskara/eclipse-workspace/hdfcBDD/./src/test/java/com/gmail/Users/Features/login2.feature:48)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.gmail.Runner.TestRunner2@d35dea7]" started-at="2025-10-29T16:13:19 IST" name="tearDownClass" finished-at="2025-10-29T16:13:20 IST" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.gmail.Runner.TestRunner2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
